@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "per-env",
-    "start:development": "concurrently \"nodemon --ignore client/*\" \"npm run client\"",
+    "start:development": "concurrently \"nodemon --ignore client/\" \"npm run client\"",
     "start:production": "node server.js",
 
     "client": "cd client && npm run start",
